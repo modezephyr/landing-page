@@ -1,0 +1,108 @@
+.box{
+    display:flex;
+    background-color: #1f2937;
+    justify-content: space-between;
+    padding: 10px 20px;
+
+
+}
+.header{
+    color:white ;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace ;
+    
+}
+.innerbox{
+ display: flex;
+ gap: 15px;
+ color: aliceblue;
+ cursor: pointer;
+ font-size: 18px;
+}
+.hero-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 40px;
+    background-color: #1f2937;
+    color: aliceblue;
+    border-radius: 5px;
+}
+.hero-content{
+   flex:1; 
+}
+.hero-content h1{
+    font-size: 45px;
+    font-weight: bold;
+    margin:4px
+}
+.hero-content p{
+    font-size: 20px;
+
+
+}
+.signup-btn{
+    background-color: rgb(113, 95, 245);
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor:pointer;
+    
+}
+.hero-image{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.hero-image img{
+    max-width: 100%;
+    height: auto;
+    border-radius:16px;
+}
+.random{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 20px;
+}
+.info{
+    font-size: 40px;
+    color:rgb(35, 34, 51) ;
+    margin-bottom: 40px;
+}
+
+.imgs {
+    display: flex;
+    justify-content: center;
+    gap: 40px; 
+    /* By default, this stays as flex-direction: row to keep items side-by-side */
+}
+
+/* Make sure this is included so the text stays UNDER the images */
+.card {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    gap: 12px;
+    width: 200px; /* Matched to your new image size */
+    margin: 10px;
+}
+
+.holders {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    /* Removed flex:1 so they stay exactly 200x200 */
+}    
+
+.holders img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    border-radius: 16px;
+}
