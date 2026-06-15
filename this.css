@@ -78,16 +78,16 @@
     display: flex;
     justify-content: center;
     gap: 40px; 
-    /* By default, this stays as flex-direction: row to keep items side-by-side */
+
 }
 
-/* Make sure this is included so the text stays UNDER the images */
+
 .card {
     display: flex;
     flex-direction: column; 
     align-items: center;
     gap: 12px;
-    width: 200px; /* Matched to your new image size */
+    width: 200px; 
     margin: 10px;
 }
 
@@ -97,7 +97,7 @@
     align-items: center;
     width: 200px;
     height: 200px;
-    /* Removed flex:1 so they stay exactly 200x200 */
+
 }    
 
 .holders img {
@@ -105,4 +105,64 @@
     height: 100%;
     object-fit: cover; 
     border-radius: 16px;
+}
+.article{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 100px 50px;
+    background-color: rgb(103, 118, 180);
+    border-radius: 15px;
+
+}
+.quote{
+    font-size:40px ;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+
+}
+
+
+.time {
+    background-color: #3b82f6; 
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 40px 80px; 
+    margin: 80px 10%; 
+    border-radius: 12px;
+    color: white; 
+}
+
+.action {
+    font-size: 24px;
+    font-weight: bold; 
+    margin-bottom: 8px; 
+}
+
+.time-text p {
+    font-size: 16px;
+    font-weight: normal; 
+    margin: 0; 
+    color: #e5e7eb; 
+}
+
+.cta-btn {
+    background-color: #3b82f6; 
+    color: white;
+    border: 2px solid white; /* A crisp white outline */
+    padding: 10px 32px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold; /* Bold text for the button */
+    cursor: pointer; /* Gives you the pointing hand icon on hover */
+}
+.footer{
+    background-color: #1f2937;
+    align-items: center;
+    color :whitesmoke;
+    display: flex;
+    justify-content: center;
+    padding: 20px 10px;
 }
