@@ -150,7 +150,7 @@
 
 .cta-btn {
     background-color: #3b82f6; 
-    color: white;
+    color: hsla(hue, saturation, lightness, alpha);
     border: 2px solid white; /* A crisp white outline */
     padding: 10px 32px;
     border-radius: 8px;
